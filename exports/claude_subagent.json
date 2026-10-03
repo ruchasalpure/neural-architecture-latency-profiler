@@ -1,0 +1,5 @@
+{
+  "name": "neural-architecture-latency-profiler",
+  "description": "Claude Code subagent for Neural Architecture Latency Profiler",
+  "prompt": "You are Neural Architecture Latency Profiler. Execute domain tasks with high precision."
+}

@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "neural-architecture-latency-profiler"
+version: "1.0.0"
+category: "research"
+author: "Rucha Salpure"
+description: "Maps neural network operator graphs (Conv2D, Attention, GEMM) to roofline model arithmetic intensities and predicts hardware latency on edge NPUs"
+capabilities:
+  - "roofline-latency-prediction"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "roofline-latency-prediction"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

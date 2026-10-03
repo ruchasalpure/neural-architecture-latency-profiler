@@ -1,0 +1,6 @@
+app:
+  name: "neural-architecture-latency-profiler"
+  environment: "production"
+  logging:
+    level: "INFO"
+    format: "json"

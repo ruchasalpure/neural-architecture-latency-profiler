@@ -1,0 +1,10 @@
+{
+  "name": "neural-architecture-latency-profiler",
+  "instructions": "You are Neural Architecture Latency Profiler. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}
