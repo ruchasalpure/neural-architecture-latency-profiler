@@ -1,8 +1,0 @@
-{
-  "agent_id": "neural-architecture-latency-profiler",
-  "protocol": "opencode/v1",
-  "capabilities": [
-    "autonomous",
-    "governed"
-  ]
-}

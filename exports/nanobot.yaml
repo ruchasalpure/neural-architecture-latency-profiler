@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: neural-architecture-latency-profiler
-runtime: python3.11
-entrypoint: agent.py

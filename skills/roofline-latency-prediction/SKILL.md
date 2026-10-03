@@ -1,17 +1,25 @@
 ---
-name: "roofline-latency-prediction"
-description: "Estimates memory bandwidth saturation and tensor-core utilization across diverse quantization precisions (FP16, INT8, INT4)"
-version: "1.0.0"
-category: "research"
+name: roofline-latency-prediction
+description: Specialized capability for Neural Architecture Latency Profiler.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: research
 ---
 
-# Skill: roofline-latency-prediction
+# Neural Architecture Latency Profiler — ROOFLINE LATENCY PREDICTION Skill
 
-## Overview
-Estimates memory bandwidth saturation and tensor-core utilization across diverse quantization precisions (FP16, INT8, INT4).
+## Purpose
+The `roofline-latency-prediction` capability provides high-assurance execution routines for `Neural Architecture Latency Profiler`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.
